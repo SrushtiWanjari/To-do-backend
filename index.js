@@ -6,7 +6,9 @@ dotenv.config();
 
 const app = express();
 
-app.use(cors({ origin: "*" }));
+app.use(cors({
+  origin: "https://to-do-frontend-theta-five.vercel.app"
+}));
 
 // app.use(cors({
 //   origin: process.env.CORS_ORIGIN
