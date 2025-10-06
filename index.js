@@ -20,7 +20,7 @@ const TODO_ITEMS = [
   {
     id: 1,
     todoItem: "Buy Groceries",
-    priority: "High",
+    priority: "high",
     emoji: "⚖️",
     isDone: false,
     createdAt: new Date().toISOString(),
@@ -28,7 +28,7 @@ const TODO_ITEMS = [
   {
     id: 2,
     todoItem: "Go To Gym",
-    priority: "Medium",
+    priority: "medium",
     emoji: "💪",
     isDone: true,
     createdAt: new Date().toISOString(),
